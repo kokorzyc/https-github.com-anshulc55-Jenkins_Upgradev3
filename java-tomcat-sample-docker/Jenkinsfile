@@ -2,13 +2,13 @@ pipeline {
     agent any
     stages {
         
-        stage('Change to rgith subdirectory') {
-            steps {
-                 dir('java-tomcat-sample-docker') {
-                    checkout scm
-                 }
-            }
-        }
+     //   stage('Change to rgith subdirectory') {
+     //       steps {
+     //            dir('java-tomcat-sample-docker') {
+     //               checkout scm
+     //            }
+     //       }
+     //   }
         
         stage('Build Application') {
 
